@@ -181,7 +181,7 @@ These are teaching workflows. The CSV is small, the MLflow dataset is synthetic,
 
 ## Troubleshooting
 
-- **CSV not found:** Start Jupyter from the project root and check the exact path `Code/data/Students Performance .csv`.
+- **CSV:** Start Jupyter from the project root and check the exact path `data/Students Performance .csv`.
 - **`Target_Score` missing:** Use the included CSV; the first notebook explicitly checks for this column.
 - **Import errors:** Confirm that the selected notebook kernel uses `.venv` and that both dependency installation commands completed.
 - **No MLflow runs visible:** Run the training cells and launch the UI from the same directory using `sqlite:///mlflow.db`.
